@@ -1,4 +1,4 @@
-docker build -t kamir/cdsw-base-with-maven-graphviz-gnuplot-cuda . 
+docker build -t mgkrish19/cdsw-base-with-maven-graphviz-gnuplot-cuda . 
 
 
 
@@ -9,7 +9,7 @@ echo "current time is: ".$T
 
 docker image ls
 
-docker run -it -d --name container_$T kamir/cdsw-base-with-maven-graphviz-gnuplot
+docker run -it -d --name container_$T mgkrish19/cdsw-base-with-maven-graphviz-gnuplot
 
 docker container ls
 
